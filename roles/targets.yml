@@ -1,6 +1,6 @@
 ---
 # ## ---------------------------------- ##
-- name: GET SURVEY PROVIDED TARGETS
+- name:  GET-SURVEY-PROVIDED-TARGETS
   hosts: localhost
   gather_facts: False
   tasks:
@@ -13,5 +13,4 @@
       # Running this on the Ansible contoller only:
       delegate_to: localhost
       run_once: True
-
 # ## ---------------------------------- ##
